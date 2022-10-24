@@ -8,7 +8,7 @@ O objetivo deste projeto é prever o preço de aluguel de um imóvel no Rio de J
 ## 2. Arquivos
 A pasta contém os seguintes arquivos:
 1. Projeto 3 - AirBnb Rio de Janeiro.ipynb -> arquivo Jupyter em que foi realizado praticamente todo o projeto, desde a etapa de importação dos dados, data cleaning, Análise Exploratória, feature engineering e treino dos modelos, até o preparo para o Deploy. Nele, está documentado também todas as lógicas e conceitos que foram adotados para a elaboração do projeto.
-2. DeployProjetoAirbnb.py -
+2. DeployProjetoAirbnb.py -> é o arquivo que aproveita e utilizado modelo gerado no arquivo "Projeto 3 - AirBnb Rio de Janeiro.ipynb" para realizar a previsão. Ele deve ser rodado no Prompt do Anaconda utilizando-se o comando "streamlit run DeployProjetoAirbnb.py", em que se abrirá uma janela no navegador padrão do usuário para realizar os inputs necessários para o modelo fazer a sua previsão.
 3. modelo.joblib -> é o modelo "vencedor" após os treinos realizados (ExtraTrees), e que é utilizado no arquivo "DeployProjetoAirbnb.py"
 4. dataset -> é uma subpasta que contém dados desde abril/19 até maio/20, com informações de imóveis do Airbnb (a base foi extraída do Kaggle)
 5. dados.csv -> é o arquivo csv resultado da exportação da base depois que é realizado todo o data cleaning/feature engineering, para que não seja necessário repetir todo o processo totalmente do zero caso seja necessário.
